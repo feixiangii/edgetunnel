@@ -5,6 +5,7 @@ let userID = '';
 let proxyIP = '';
 //let sub = '';
 let subConverter = atob('U1VCQVBJLkNNTGl1c3Nzcy5uZXQ=');
+//let subConverter = atob('U1VCQVBJLmZ4eGsuZGVkeW4uaW8=');
 let subConfig = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvY29uZmlnL0FDTDRTU1JfT25saW5lX01pbmlfTXVsdGlNb2RlLmluaQ==');
 let subProtocol = 'https';
 let subEmoji = 'true';
@@ -1265,19 +1266,9 @@ async function 生成配置信息(userID, hostName, sub, UA, RproxyIP, _url, fak
 				'104.16.0.0/14',
 				'104.24.0.0/15',
 				'141.101.64.0/19',
-				'172.64.0.0/14',
 				'188.114.96.0/21',
 				'190.93.240.0/21',
-				'162.159.152.0/23',
-				'104.16.0.0/13',
-				'104.24.0.0/14',
-				'172.64.0.0/14',
-				'104.16.0.0/14',
-				'104.24.0.0/15',
-				'141.101.64.0/19',
-				'172.64.0.0/14',
-				'188.114.96.0/21',
-				'190.93.240.0/21',
+				'162.159.152.0/23'
 			];
 
 			// 生成符合给定 CIDR 范围的随机 IP 地址
